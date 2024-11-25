@@ -1,4 +1,4 @@
-<?php include('registation.html');
+<?php include('registationform.html');
 
 //HOSTING TO DATABASE 
 $hostname ="localhost";
@@ -16,7 +16,7 @@ else{
 }
 
 // POSTING VALUES INTO DATABASE
-require 'registation_test.php';
+require 'registationform.php';
 
  if(isset($_POST["registerbtn"])){
     $first_name =$_POST["first_name"];
